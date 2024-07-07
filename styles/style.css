@@ -103,3 +103,99 @@ body {
     width: 676px;
     height: 670px;
 }
+/* main section */
+.resume-title{
+    text-align: center;
+}
+.main{
+    width: 1140px;
+    margin: 130px auto;
+}
+
+.column-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.column-left .column-right .title{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.column-left .column-right .degree{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.column-left .column-right .university{
+    font-size: 20px;
+    color: #757575;
+
+}
+.column-left .column-right .decribtion{
+    font-size: 16px;
+    color: #757575;;
+    width: 511px;
+    height: 84px;
+
+}
+
+
+
+/* footer section */
+footer{
+    height: 780px;
+    background-color: #FFF8F3;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 130px 230px;   
+    
+    
+}
+.footer-left{
+    
+}
+.footer-left h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.footer-left p{
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer-left>a>img{
+    margin-right: 10px;
+}
+.footer-right h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.footer-right input[type="text"]{
+    border: none;
+    width: 460px;
+    height: 64px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+.footer-right input[type="email"]{
+    display: block;
+    border: none;
+    width: 460px;
+    height: 64px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+.footer-right textarea{
+    display: block;
+    width: 460px;
+    height: 180px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
