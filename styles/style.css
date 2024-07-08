@@ -5,10 +5,13 @@ body {
 }
 
 .header {
+    width: 1600px;
+    margin: 0 auto;
     background-image: url('../assets/developer.png'), url('../assets/header_bg.png');
     background-position: top left, right bottom;
     background-repeat: no-repeat;
     background-color: #FFF8F3;
+   
 }
 
 .nav-bar {
@@ -80,8 +83,11 @@ body {
 }
 
 .banner-text {
-    max-width: 585px;
+    max-width: 700px;
     height: 350px;
+}
+.banner-btn {
+    width: 500px;
 }
 
 .banner-gretting {
@@ -116,9 +122,9 @@ body {
     margin-bottom: 100px;
 }
 
-.main {
+.main{
     width: 1140px;
-    margin: 130px auto;
+    margin: 0 auto;
 }
 
 .column-container {
@@ -165,6 +171,7 @@ body {
     /* height: 550px; */
     display: flex;
     flex-direction: column;
+    margin-top: 120px;
 }
 
 .about {
@@ -236,6 +243,8 @@ body {
 footer {
     height: 780px;
     background-color: #FFF8F3;
+    width: 1600px;
+    margin: 0 auto;
 
 }
 
