@@ -5,17 +5,25 @@ body {
 }
 
 .header {
-    width: 1600px;
+    width: 100%;
+    height: 100vh;
     margin: 0 auto;
     background-image: url('../assets/developer.png'), url('../assets/header_bg.png');
-    background-position: top left, right bottom;
+    background-position: top left 20px, right bottom;
+    background-size: 150px 600px,  600px 350px;
     background-repeat: no-repeat;
     background-color: #FFF8F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    /* gap: 0px; */
+
    
 }
 
 .nav-bar {
-    margin: 20px 200px;
+    margin: 20px 190px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,19 +81,22 @@ body {
 
 /* Banner section */
 .banner-container {
-
+    /* width: 90%; */
     display: flex;
-    margin: 0px 35px 0px 200px;
+    margin: 0px 35px 0px 20px;
     justify-content: space-between;
     align-items: center;
 
-
 }
+.banner-container> div{
+    width: 600px;
+    height: 410px;
+   }
 
-.banner-text {
+/* .banner-text {
     max-width: 700px;
     height: 350px;
-}
+} */
 .banner-btn {
     width: 500px;
 }
@@ -110,10 +121,14 @@ body {
     font-weight: 400;
 
 }
-
+.banner-img-container{
+   display: flex;
+   justify-content: end;
+}
 .banner-img {
-    width: 676px;
-    height: 670px;
+    width: 70%;
+    height: 100%;
+   
 }
 
 /* main section */
@@ -249,18 +264,25 @@ footer {
 }
 
 .footer-container {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 130px 230px;
-
+    align-items: center;
+}
+.footer-section{
+    width: 90%;
+    /* border: 2px solid rebeccapurple; */
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 20px; */
+    /* padding: 130px 230px; */
 
 }
-
-.footer-left {
-    margin: 0 200px 0 0;
-
+.footer-section{
+    display: flex;
+    justify-content: space-around;
 }
+
 
 .footer-left h1 {
     font-size: 35px;
@@ -285,7 +307,7 @@ footer {
 
 .footer-right input[type="text"] {
     border: none;
-    width: 460px;
+    width: 300px;
     height: 64px;
     margin-bottom: 10px;
     padding: 5px;
@@ -309,3 +331,5 @@ footer {
     margin-bottom: 10px;
     padding: 5px;
 }
+
+/*  */
